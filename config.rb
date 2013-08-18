@@ -87,6 +87,9 @@ end
 # Change the images directory
 # set :images_dir, "alternative_image_directory"
 
+# Reload the browser automatically whenever files change
+activate :livereload
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
